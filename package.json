@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "multi-page-app build",
+    "module": "multi-page-app module",
+    "page": "multi-page-app page",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +18,23 @@
   "bugs": {
     "url": "https://github.com/maohaolin/multi-page-app-template/issues"
   },
-  "homepage": "https://github.com/maohaolin/multi-page-app-template#readme"
+  "homepage": "https://github.com/maohaolin/multi-page-app-template#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "js-cookie": "^2.2.0",
+    "nervjs": "^1.2.8"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.16.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-config-standard-jsx": "^4.0.2",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^7.3.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "husky": "^0.14.3",
+    "lint-staged": "^6.0.0"
+  }
 }
